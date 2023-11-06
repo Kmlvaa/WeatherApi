@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="header">
+        <i class="fa-solid fa-location-dot fa-lg"></i>
+        <input type="text" class="search-input" placeholder="Enter city name:">
+        <button class="btn"><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
+      </div>
+      <div class="body">
+        <div class="one"> <span class="city-location"></span></div>
+        <div class="two"> <span class="time"></span></div>
+        <div class="three"> <span class="date"></span></div>
+        <div class="four"> <img  class="icon" src="" alt=""></div>
+        <div class="five"> <span class="temperature"></span></div>
+        <div class="footer">
+          <div class="wind-speed"></div>
+          <div class="humidity"></div>
+          <div class="feels-like"></div>
+          <div class="uv-index"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
